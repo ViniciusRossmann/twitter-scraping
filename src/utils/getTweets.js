@@ -3,7 +3,7 @@ const chrome = require('selenium-webdriver/chrome');
 
 let driver = new Builder()
     .forBrowser('chrome')
-    //.setChromeOptions(new chrome.Options().headless())
+    .setChromeOptions(new chrome.Options().headless())
     .build();
 
 async function getTweets(keyword) {

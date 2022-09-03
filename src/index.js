@@ -14,7 +14,7 @@ async function addToCsv(tweets) {
     return new Promise(async (resolve, reject) => {
         try {
             let text = tweets.map(tweet => {
-                return `${tweet.replaceAll('\n', "")}\n`;
+                return `${tweet.replaceAll('\n', " ")}\n`;
             });
             await fs.appendFileSync('./data/tweets.csv', text.join(''));
             resolve();
@@ -34,7 +34,7 @@ async function startScraping() {
                 console.error(err);
             }
         }
-        await sleep(60000);
+        await sleep(210000);
     }
 }
 
