@@ -34,7 +34,7 @@ async function startScraping() {
                 console.error(err);
             }
         }
-        await sleep(210000);
+        await sleep(300000);
     }
 }
 
