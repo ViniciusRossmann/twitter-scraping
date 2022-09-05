@@ -16,7 +16,7 @@ async function addToCsv(tweets) {
             let text = tweets.map(tweet => {
                 return `${tweet.replaceAll('\n', " ")}\n`;
             });
-            await fs.appendFileSync('./data/tweets.csv', text.join(''));
+            await fs.appendFileSync('./data/tweets.txt', text.join(''));
             resolve();
         } catch (err) {
             reject(err);
