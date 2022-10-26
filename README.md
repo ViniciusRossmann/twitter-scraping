@@ -8,7 +8,7 @@ Scraping, representação vetorial e clusterização de tweets sobre as eleiçõ
 
 [Arquivio com os vetores gerados (TF-IDF)](./data/vetorizacao.csv)
 
-[Script de agrupamento](./clustering/clustering_python.ipynb)
+[Script de agrupamento](./clustering/clustering_python_v2.ipynb)
 
 [Arquivo com as postagens rotuladas](./data/postagens_classificadas.csv)
 
