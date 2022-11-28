@@ -31,7 +31,7 @@ Scraping, representação vetorial, clusterização e classificação automátic
 <br>
 <h2>Terceira entrega</h2>
 
-[Notebook]('./automatic_classification/automatic_classification.ipynb')
+[Notebook](./automatic_classification/automatic_classification.ipynb)
 
 Video: ?
 
