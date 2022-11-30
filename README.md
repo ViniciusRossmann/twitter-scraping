@@ -33,4 +33,5 @@ Scraping, representação vetorial, clusterização e classificação automátic
 
 [Notebook](./automatic_classification/automatic_classification.ipynb)
 
-Video: https://youtu.be/cvUa3IwLtzk
+[Video](https://youtu.be/1tsvA6W5lew)
+
